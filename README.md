@@ -6,11 +6,12 @@ Back-end services
 3. Run command 'npm run start' or 'nodemon server/index.js' in the terminal
 4. Use postman to see the http request being used on http://localhost:3000/ (http request endpoints)
 
-###Get request for all doctors
+### Get request for all doctors
 visit http://localhost:3000/physicians/
 
-###Get a list of all appointments for a particular doctor and particular day:
+### Get a list of all appointments for a particular doctor and particular day:
 visit http://localhost:3000/physicians/appointments
+<br>
 body format:
 ```
 {
@@ -18,11 +19,12 @@ body format:
 	"date":"11/11/19"
 }
 ```
-###Delete an existing appointment from a doctor's calendar
+### Delete an existing appointment from a doctor's calendar
 visit http://localhost:3000/physicians/appointments/:id
 
-###Add a new appointment to a doctor's calendar
+### Add a new appointment to a doctor's calendar
 visit http://localhost:3000/physicians/appointments
+<br>
 body format:
 ```
 {
